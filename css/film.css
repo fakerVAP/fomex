@@ -1,43 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
-.logo_fomex{
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+.logo_fomex {
     max-width: 300px;
     height: auto;
 }
+
 .card {
-    width: calc(20% - 20px); /* Đặt chiều rộng của mỗi card, với margin giữa là 20px */
-    margin: 10px; /* Đặt margin giữa các card */
+    width: calc(20% - 20px);
+    /* Đặt chiều rộng của mỗi card, với margin giữa là 20px */
+    margin: 10px;
+    /* Đặt margin giữa các card */
 }
 
 @media screen and (max-width: 992px) {
     .card {
-        width: calc(25% - 20px); /* Điều chỉnh chiều rộng của card khi độ rộng màn hình nhỏ hơn hoặc bằng 992px */
+        width: calc(25% - 20px);
+        /* Điều chỉnh chiều rộng của card khi độ rộng màn hình nhỏ hơn hoặc bằng 992px */
     }
 }
 
 @media screen and (max-width: 768px) {
     .card {
-        width: calc(33.33% - 20px); /* Điều chỉnh chiều rộng của card khi độ rộng màn hình nhỏ hơn hoặc bằng 768px */
+        width: calc(33.33% - 20px);
+        /* Điều chỉnh chiều rộng của card khi độ rộng màn hình nhỏ hơn hoặc bằng 768px */
     }
 }
 
 @media screen and (max-width: 576px) {
     .card {
-        width: calc(50% - 20px); /* Điều chỉnh chiều rộng của card khi độ rộng màn hình nhỏ hơn hoặc bằng 576px */
+        width: calc(50% - 20px);
+        /* Điều chỉnh chiều rộng của card khi độ rộng màn hình nhỏ hơn hoặc bằng 576px */
     }
 }
 
-.title{
+.title {
     background-color: #999;
 }
-.title h1{
-    font-family: "Fredoka", sans-serif;
-  font-weight: bold;
-  font-style: normal;
-  font-variation-settings:"wdth" 100;
+
+.title h1 {
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
 }
-.class_film a{
+
+.class_film a {
     margin: 10px;
 }
-.process{
+
+.process {
     background-color: #c0c0c0;
 }
