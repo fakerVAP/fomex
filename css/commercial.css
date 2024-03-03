@@ -1,43 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 
 body{
-    background-color: #7bba3b;
+    margin: 0;
+    padding: 0;
 }
+.navbar .container-fluid,
+footer .container {
+    margin-right: 0;
+    margin-left: 0;
+}
+
 .logo_fomex {
     max-width: 300px;
     height: auto;
 }
+.product{
+    background-image: url(../image/backgorund_home_top.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
 
+}
 .card {
     width: calc(20% - 20px);
-    /* Đặt chiều rộng của mỗi card, với margin giữa là 20px */
     margin: 10px;
-    /* Đặt margin giữa các card */
 }
 
 @media screen and (max-width: 992px) {
     .card {
         width: calc(25% - 20px);
-        /* Điều chỉnh chiều rộng của card khi độ rộng màn hình nhỏ hơn hoặc bằng 992px */
     }
 }
 
 @media screen and (max-width: 768px) {
     .card {
         width: calc(33.33% - 20px);
-        /* Điều chỉnh chiều rộng của card khi độ rộng màn hình nhỏ hơn hoặc bằng 768px */
     }
 }
 
 @media screen and (max-width: 576px) {
     .card {
         width: calc(50% - 20px);
-        /* Điều chỉnh chiều rộng của card khi độ rộng màn hình nhỏ hơn hoặc bằng 576px */
     }
 }
 
 .title {
     background-color: #999;
+    width: 100%;
 }
 
 .title h1 {
@@ -47,15 +55,22 @@ body{
     font-variation-settings: "wdth" 100;
 }
 
-.class_film a {
-    margin: 10px;
-}
-
 .process {
-    background-color: #c0c0c0;
+    background-color: #808080;
 }
-.process img {
-    width: 100%;
+.process h2{
+    color: #fff;
+} 
+.img-process{
+    background-image: url(../image/backgorund_home_top.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    justify-content: center;
+}
+.img-process img {
+    padding: 5px;
+    width: 70%;
     height: auto;
 }
 .card-img-container {
@@ -64,8 +79,9 @@ body{
   }
   
   .card-img-overlay {
+    width: 100%;
     position: absolute;
-    top: 80%;
+    top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -77,5 +93,20 @@ body{
                   1px -1px 0 #000,
                  -1px 1px 0 #000,
                   1px 1px 0 #000; /* Điều chỉnh viền */
+    
   }
-  
+  footer a{
+    color: #fff;
+    text-decoration: none;
+  }
+  footer p {
+    color: #fff;
+
+  }
+  footer li {
+    color: #fff;
+  }
+  .title_footer {
+    margin-top: 10px;
+    color: #fff;
+  }
